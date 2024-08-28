@@ -1,0 +1,97 @@
+@font-face {
+    font-family: Baby;
+    src: url(./fonts/Baby.ttf);
+}
+
+@font-face {
+    font-family: BlinkShark;
+    src: url(./fonts/Blink.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: #FFF4E0;
+}
+
+@media screen and (max-width: 1125px){
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .header img{
+        width: 150px;
+    }
+
+    .header p{
+        color: #fff;
+        text-shadow: 2px 2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, -2px -2px 0 #000;
+        filter: drop-shadow( 1px 1px 3px rgb(67, 66, 66));
+    }
+
+    .botones{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .botones p{
+        text-align: center;
+        font-family: Baby;
+        font-size: 30px;
+    }
+
+    .botones a img{
+        width: 40px;
+        filter: drop-shadow( 1px 1px 3px rgb(67, 66, 66));
+    }
+
+    nav{
+        width: 100%;
+        background-color: #f3bc30;
+        height: 40px;
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Baby;
+        text-align: center;
+    }
+
+    nav ul a li{
+        color: #FFF4E0;
+    }
+
+    .capa{
+        height: 30px;
+        background-color: #3E2E2D;
+    }
+
+    .capa2{
+        background-color: #f3bc30;
+        height: 10px;
+    }
+
+    .menu img{
+        width: 100%;
+    }
+
+
+}
